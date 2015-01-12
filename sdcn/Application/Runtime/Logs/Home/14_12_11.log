@@ -1,0 +1,2579 @@
+[ 2014-12-11T08:45:25+08:00 ] 127.0.0.1 /sdcn/index.php/home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003698s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000411s ]
+NOTIC: [8] Undefined variable: errmsg D:\wamp\www\sdcn\Application\Runtime\Cache\Home\5c9ee6d19cd41add49f97afe3aef0b25.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002739s ]
+
+[ 2014-12-11T08:45:38+08:00 ] 127.0.0.1 /sdcn/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001779s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.043094s ]
+SQL: SELECT * FROM `think_user` WHERE ( name = 'shengsr' ) LIMIT 1   [ RunTime:0.019511s ]
+SQL: SELECT * FROM `think_user` WHERE ( password = '3dcfd63e84d210efffb16514dbeae58d' ) LIMIT 1   [ RunTime:0.000652s ]
+
+[ 2014-12-11T08:45:38+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001585s ]
+SQL: select ip,port,node_type,cache_used_rate,status,description from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001374s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000345s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001517s ]
+
+[ 2014-12-11T08:45:42+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001789s ]
+SQL: SHOW COLUMNS FROM syslog .cnode_content [ RunTime:0.002253s ]
+SQL: SELECT `content_type`,`content_size` FROM syslog .cnode_content WHERE ( cnode_ip = '192.168.64.223' )  [ RunTime:0.000967s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000437s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 153 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 158 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001524s ]
+
+[ 2014-12-11T09:09:26+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003671s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000363s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 153 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 158 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033568s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001778s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002318s ]
+
+[ 2014-12-11T09:12:33+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003178s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000495s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 153 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 158 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001692s ]
+
+[ 2014-12-11T09:13:23+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001776s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 153 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 158 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001522s ]
+
+[ 2014-12-11T09:14:09+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001963s ]
+SQL: select ip,port,node_type,cache_used_rate,status,description from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001262s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001763s ]
+
+[ 2014-12-11T09:14:11+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001673s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000520s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 153 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 158 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001590s ]
+
+[ 2014-12-11T09:14:21+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001492s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 153 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 158 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001631s ]
+
+[ 2014-12-11T09:15:01+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001811s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000620s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 153 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 158 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028823s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001664s ]
+
+[ 2014-12-11T09:15:48+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000358s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 153 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 158 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001685s ]
+
+[ 2014-12-11T09:27:34+08:00 ] 127.0.0.1 /sdcn/index.php/home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002303s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000631s ]
+NOTIC: [8] Undefined variable: errmsg D:\wamp\www\sdcn\Application\Runtime\Cache\Home\5c9ee6d19cd41add49f97afe3aef0b25.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002336s ]
+
+[ 2014-12-11T09:27:47+08:00 ] 127.0.0.1 /sdcn/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002035s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.039747s ]
+SQL: SELECT * FROM `think_user` WHERE ( name = 'shengsr' ) LIMIT 1   [ RunTime:0.002394s ]
+SQL: SELECT * FROM `think_user` WHERE ( password = '3dcfd63e84d210efffb16514dbeae58d' ) LIMIT 1   [ RunTime:0.000573s ]
+
+[ 2014-12-11T09:27:47+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002124s ]
+SQL: select ip,port,node_type,cache_used_rate,status,description from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001456s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002469s ]
+
+[ 2014-12-11T09:27:49+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002016s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002117s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000405s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 151 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 156 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 157 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 158 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001933s ]
+
+[ 2014-12-11T09:29:36+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004047s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000670s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 155 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 161 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041784s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002827s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004787s ]
+
+[ 2014-12-11T09:30:49+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002723s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 155 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 161 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001951s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002491s ]
+
+[ 2014-12-11T09:31:18+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002768s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000533s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001827s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002189s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002397s ]
+
+[ 2014-12-11T09:33:00+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002962s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000388s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003605s ]
+
+[ 2014-12-11T09:33:05+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002806s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000453s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001774s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001972s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002533s ]
+
+[ 2014-12-11T09:41:53+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003031s ]
+
+[ 2014-12-11T09:42:46+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002531s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001967s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002923s ]
+
+[ 2014-12-11T09:47:39+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002445s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000413s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 151 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 156 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 157 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 158 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003341s ]
+
+[ 2014-12-11T09:48:44+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002131s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000444s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001724s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002239s ]
+
+[ 2014-12-11T09:48:59+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002094s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000235s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000520s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035674s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002182s ]
+
+[ 2014-12-11T09:51:30+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003253s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002983s ]
+
+[ 2014-12-11T09:52:30+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001908s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001772s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002309s ]
+
+[ 2014-12-11T09:52:35+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001860s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000401s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001723s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002086s ]
+
+[ 2014-12-11T09:52:51+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001908s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000391s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034336s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001727s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002499s ]
+
+[ 2014-12-11T09:53:18+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001943s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000405s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001795s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002070s ]
+
+[ 2014-12-11T09:54:17+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002294s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000470s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031767s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002116s ]
+
+[ 2014-12-11T09:55:17+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002643s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001813s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002297s ]
+
+[ 2014-12-11T09:55:44+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001901s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000414s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001738s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002261s ]
+
+[ 2014-12-11T10:00:10+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002913s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039044s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002734s ]
+
+[ 2014-12-11T10:02:40+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003431s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000256s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000642s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003670s ]
+
+[ 2014-12-11T10:03:01+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001843s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000391s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002159s ]
+
+[ 2014-12-11T10:03:32+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004119s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000308s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000701s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005418s ]
+
+[ 2014-12-11T10:03:41+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002612s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000278s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000632s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002674s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004965s ]
+
+[ 2014-12-11T10:03:55+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005822s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001455s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049326s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002877s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004445s ]
+
+[ 2014-12-11T10:05:18+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002851s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000408s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000960s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003189s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003518s ]
+
+[ 2014-12-11T10:05:24+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003141s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000647s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002946s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003271s ]
+
+[ 2014-12-11T10:05:31+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002433s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000252s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000596s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001828s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003020s ]
+
+[ 2014-12-11T10:05:43+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000132s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004096s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000425s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000790s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004597s ]
+
+[ 2014-12-11T10:06:08+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004115s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000595s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002608s ]
+
+[ 2014-12-11T10:06:16+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002766s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000779s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001126s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001863s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002335s ]
+
+[ 2014-12-11T10:06:23+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003484s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000592s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 159 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 160 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001668s ]
+
+[ 2014-12-11T10:12:54+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002916s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000604s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 177 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 178 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 179 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001951s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002742s ]
+
+[ 2014-12-11T10:13:04+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002799s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000424s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 177 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 178 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 179 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001745s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001911s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002125s ]
+
+[ 2014-12-11T10:13:30+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002044s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 177 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 178 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 179 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001983s ]
+
+[ 2014-12-11T10:13:54+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001728s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 177 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 178 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 179 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001861s ]
+
+[ 2014-12-11T10:14:52+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003132s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 177 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 178 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 179 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001960s ]
+
+[ 2014-12-11T10:15:15+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003607s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000579s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 177 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 178 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 179 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001756s ]
+
+[ 2014-12-11T10:16:25+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003052s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000391s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000873s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 177 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 178 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 179 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002547s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004213s ]
+
+[ 2014-12-11T10:19:21+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002434s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000430s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 163 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 186 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 187 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002146s ]
+
+[ 2014-12-11T10:20:36+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001616s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 163 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 186 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 187 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002163s ]
+
+[ 2014-12-11T10:20:41+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001891s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 163 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 186 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 187 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002159s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002523s ]
+
+[ 2014-12-11T10:24:08+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002267s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 163 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 186 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 187 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001658s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002764s ]
+
+[ 2014-12-11T10:24:29+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003418s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000412s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 163 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 186 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 187 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037221s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001606s ]
+
+[ 2014-12-11T10:25:06+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003896s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000256s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000610s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 163 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 186 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 187 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002941s ]
+
+[ 2014-12-11T10:26:01+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002484s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 163 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 186 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 187 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001668s ]
+
+[ 2014-12-11T10:39:20+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003497s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000603s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 124 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 164 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 187 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 188 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 189 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002537s ]
+
+[ 2014-12-11T10:48:39+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002825s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000268s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000585s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 124 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 164 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 187 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 188 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 189 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002644s ]
+
+[ 2014-12-11T10:49:12+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001653s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 124 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 164 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 187 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 188 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 189 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028076s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001762s ]
+
+[ 2014-12-11T10:49:59+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 124 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 164 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 187 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 188 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 189 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001567s ]
+
+[ 2014-12-11T10:50:02+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001649s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000290s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000664s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 124 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 164 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 187 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 188 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 189 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002530s ]
+
+[ 2014-12-11T10:50:42+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001845s ]
+
+[ 2014-12-11T10:51:01+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001707s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 124 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 164 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 187 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 188 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 189 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002113s ]
+
+[ 2014-12-11T11:04:19+08:00 ] 127.0.0.1 /sdcn/index.php/home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.029831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015964s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000640s ]
+NOTIC: [8] Undefined variable: errmsg D:\wamp\www\sdcn\Application\Runtime\Cache\Home\5c9ee6d19cd41add49f97afe3aef0b25.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012945s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003828s ]
+
+[ 2014-12-11T11:04:28+08:00 ] 127.0.0.1 /sdcn/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002650s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.026664s ]
+SQL: SELECT * FROM `think_user` WHERE ( name = 'shengsr' ) LIMIT 1   [ RunTime:0.003425s ]
+SQL: SELECT * FROM `think_user` WHERE ( password = '3dcfd63e84d210efffb16514dbeae58d' ) LIMIT 1   [ RunTime:0.000599s ]
+
+[ 2014-12-11T11:04:28+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001484s ]
+SQL: select ip,port,node_type,cache_used_rate,status,description from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.002123s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000464s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001815s ]
+
+[ 2014-12-11T11:04:37+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001455s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000365s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 124 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 164 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 187 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 188 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 189 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039686s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001581s ]
+
+[ 2014-12-11T11:07:27+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001806s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000561s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 164 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 187 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 188 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 189 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001759s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002203s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002416s ]
+
+[ 2014-12-11T11:14:59+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002937s ]
+SQL: SHOW COLUMNS FROM syslog .cnode_content [ RunTime:0.001779s ]
+SQL: SELECT `content_type`,`content_size` FROM syslog .cnode_content WHERE ( cnode_ip = '192.168.64.223' )  [ RunTime:0.001124s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 164 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 187 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 188 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 189 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001886s ]
+
+[ 2014-12-11T14:05:41+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003161s ]
+SQL: SHOW COLUMNS FROM syslog .cnode_content [ RunTime:0.003206s ]
+SQL: SELECT `content_type`,`content_size` FROM syslog .cnode_content WHERE ( cnode_ip = '192.168.64.223' )  [ RunTime:0.001107s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 164 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 187 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 188 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 189 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030726s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001856s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002802s ]
+
+[ 2014-12-11T14:27:53+08:00 ] 127.0.0.1 /sdcn/index.php/home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003056s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000510s ]
+NOTIC: [8] Undefined variable: errmsg D:\wamp\www\sdcn\Application\Runtime\Cache\Home\5c9ee6d19cd41add49f97afe3aef0b25.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001667s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002930s ]
+
+[ 2014-12-11T14:28:09+08:00 ] 127.0.0.1 /sdcn/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001581s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.035834s ]
+SQL: SELECT * FROM `think_user` WHERE ( name = 'shengsr' ) LIMIT 1   [ RunTime:0.001608s ]
+SQL: SELECT * FROM `think_user` WHERE ( password = '3dcfd63e84d210efffb16514dbeae58d' ) LIMIT 1   [ RunTime:0.000463s ]
+
+[ 2014-12-11T14:28:09+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002345s ]
+SQL: select ip,port,node_type,cache_used_rate,status,description from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001343s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000617s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001906s ]
+
+[ 2014-12-11T14:28:14+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001915s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000451s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000840s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 153 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 178 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 179 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001680s ]
+
+[ 2014-12-11T14:29:00+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002645s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000587s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 151 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 176 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 177 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 178 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001620s ]
+
+[ 2014-12-11T14:30:02+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001952s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000403s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 153 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 178 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 179 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001971s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002593s ]
+
+[ 2014-12-11T14:38:14+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002523s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000574s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 153 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 178 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 179 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001899s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002417s ]
+
+[ 2014-12-11T14:39:00+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004714s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000382s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 153 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 178 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 179 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031269s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001828s ]
+
+[ 2014-12-11T14:39:35+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000377s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 153 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 178 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 179 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001629s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001950s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002253s ]
+
+[ 2014-12-11T14:53:19+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003537s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000478s ]
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 178 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 179 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001807s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002183s ]
+
+[ 2014-12-11T14:53:40+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001990s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 178 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 179 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002222s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002505s ]
+
+[ 2014-12-11T15:26:41+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003485s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000431s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 153 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 178 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 179 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002605s ]
+
+[ 2014-12-11T15:27:26+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003045s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000646s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 153 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 178 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 179 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039563s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002094s ]
+
+[ 2014-12-11T15:29:58+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003974s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000252s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000630s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 103 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 179 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 180 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003166s ]
+
+[ 2014-12-11T15:30:06+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003058s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000624s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 103 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 154 行.
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 179 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 180 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031221s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001730s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002309s ]
+
+[ 2014-12-11T15:30:46+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002605s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 179 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 180 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002147s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002439s ]
+
+[ 2014-12-11T15:31:25+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002078s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000580s ]
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 178 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 179 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029336s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029733s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001864s ]
+
+[ 2014-12-11T15:34:31+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004109s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000440s ]
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 178 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 179 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003069s ]
+
+[ 2014-12-11T15:36:01+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002405s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 178 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 179 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002280s ]
+
+[ 2014-12-11T15:41:45+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002902s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003359s ]
+
+[ 2014-12-11T15:42:22+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002214s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000604s ]
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 178 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 179 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001796s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002149s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002414s ]
+
+[ 2014-12-11T15:45:30+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002886s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000293s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000628s ]
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 178 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 179 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001868s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003304s ]
+
+[ 2014-12-11T15:45:40+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.198
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002722s ]
+NOTIC: [8] Undefined variable: arr D:\wamp\www\sdcn\Application\Home\Controller\NodeController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000599s ]
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 178 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 179 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047474s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002591s ]
+
+[ 2014-12-11T15:45:50+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.197
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.008182s ]
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 178 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 179 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067232s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003404s ]
+
+[ 2014-12-11T15:46:12+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.7.158
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003169s ]
+NOTIC: [8] Undefined variable: arr D:\wamp\www\sdcn\Application\Home\Controller\NodeController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000483s ]
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 178 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 179 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002792s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003041s ]
+
+[ 2014-12-11T15:46:12+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.7.158
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002010s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002836s ]
+NOTIC: [8] Undefined variable: arr D:\wamp\www\sdcn\Application\Home\Controller\NodeController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000585s ]
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 178 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 179 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002698s ]
+
+[ 2014-12-11T15:46:19+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.7.158
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003770s ]
+NOTIC: [8] Undefined variable: arr D:\wamp\www\sdcn\Application\Home\Controller\NodeController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000796s ]
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 178 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 179 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005519s ]
+
+[ 2014-12-11T15:46:20+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.7.158
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002582s ]
+NOTIC: [8] Undefined variable: arr D:\wamp\www\sdcn\Application\Home\Controller\NodeController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000475s ]
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 178 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 179 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039536s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002395s ]
+
+[ 2014-12-11T16:09:39+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003407s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000395s ]
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 178 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 179 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001844s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002756s ]
+
+[ 2014-12-11T16:10:12+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004585s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000256s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000632s ]
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 178 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 179 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002929s ]
+
+[ 2014-12-11T16:12:45+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002734s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000509s ]
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 178 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 179 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001796s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002222s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002496s ]
+
+[ 2014-12-11T16:13:16+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004070s ]
+NOTIC: [8] Undefined index: ip D:\wamp\www\sdcn\Application\Home\Controller\NodeController.class.php 第 7 行.
+NOTIC: [8] Undefined variable: arr D:\wamp\www\sdcn\Application\Home\Controller\NodeController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000633s ]
+NOTIC: [8] Undefined variable: contentlist_vedio D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 178 行.
+NOTIC: [8] Undefined variable: contentlist_app D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 179 行.
+NOTIC: [8] Undefined variable: contentlist_picture D:\wamp\www\sdcn\Application\Runtime\Cache\Home\3fab25429d42acf91c8da9d120f3b953.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003257s ]
+
+[ 2014-12-11T16:13:58+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002891s ]
+ERR: 非法操作:index
+
+[ 2014-12-11T16:18:12+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003817s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000580s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003620s ]
+
+[ 2014-12-11T16:22:15+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003777s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000630s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040528s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002913s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003597s ]
+
+[ 2014-12-11T16:22:40+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.197
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003408s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000579s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003116s ]
+
+[ 2014-12-11T16:26:27+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003955s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001980s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002613s ]
+
+[ 2014-12-11T16:30:45+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/cacherequest.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002942s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004521s ]
+
+[ 2014-12-11T16:30:53+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003215s ]
+NOTIC: [8] Undefined index: ip D:\wamp\www\sdcn\Application\Home\Controller\NodeController.class.php 第 7 行.
+NOTIC: [8] Undefined variable: arr D:\wamp\www\sdcn\Application\Home\Controller\NodeController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000658s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003370s ]
+

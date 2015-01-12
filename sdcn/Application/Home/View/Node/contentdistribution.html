@@ -1,0 +1,77 @@
+<div class="span9" id="contentdistribution" /></div>
+<script type="text/javascript">
+				/*	$(function(){
+								var result='';
+								$.ajax({
+									type:"post",
+									async:false,
+									data:{ip:"192.168.64.223"},
+									url:"__URL__/content",			
+									success:function(data){
+									//	alert(data.vedio);
+										  vediosize = data.vedio;
+										  picturesize = data.picture;
+										  varappsize = data.app;	
+										  result=data;
+								}										
+							});	
+								return result;
+						}); */
+
+$(function () {
+    $(document).ready(function () {
+        // Build the chart
+        $('#contentdistribution').highcharts({
+            chart: {
+                plotBackgroundColor: null,
+				defaultSeriesType: 'pie',
+                plotBorderWidth: null,
+                plotShadow: false
+            },
+            title: {
+                text: '节点缓存内容分布'
+            },
+            tooltip: {
+                formatter: function() {	
+					return '<b>' + this.point.name + '</b>: ' +  twoDecimal(this.percentage) + ' %' ; //this.y显示实际数据 twoDecimal(this.percentage) + ' %' 显示百分比
+				} 
+            },
+            plotOptions: {
+                pie: {
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: false
+                    },
+                    showInLegend: true
+                }
+            },
+            series: [{
+                name: 'vedio app picture',
+                data:<?php echo $data;?> 
+            }]
+        });
+    });
+
+});
+function twoDecimal(x) {
+	var f_x = parseFloat(x);
+	if (isNaN(f_x)) {
+		alert('错误的参数');
+		return false;
+	}
+	var f_x = Math.round(x * 100) / 100;
+	var s_x = f_x.toString();
+	var pos_decimal = s_x.indexOf('.');
+	if (pos_decimal < 0) {
+		pos_decimal = s_x.length;
+		s_x += '.';
+	}
+	while (s_x.length <= pos_decimal + 2) {
+		s_x += '0';
+	}
+	return s_x;
+}
+</script>
+	
+	

@@ -1,0 +1,25 @@
+<div class="span9">
+<table class="table table-bordered table-striped" style="position:relative;left:16%;top:200px">
+	<caption><b>该节点的内容信息</b></caption>
+	<thead>
+		<tr valign="middle">
+			<th >url</th>
+			<th >所在节点</th>
+			<th>入库时间</th>
+			<th>最后一次操作时间</th>
+			<th>内容状态</th>
+		</tr>		
+	</thead>
+	<tbody>
+		<volist name="content_info" id="vo" key="k">
+		<tr text-align="center">
+			<td width="40px">{$vo.url}</td>
+			<td>{$vo.ip}</td>
+			<td>{$vo.add_time}</td>
+			<td>{$vo.add_time}</td>
+			<td>{$vo.status}</td>
+		</tr>
+		</volist>
+	</tbody>
+</table>
+</div>

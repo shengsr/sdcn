@@ -1,0 +1,2837 @@
+[ 2014-12-19T11:13:41+08:00 ] 127.0.0.1 /sdcn/index.php/home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.070057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000483s ]
+NOTIC: [8] Undefined variable: errmsg D:\wamp\www\sdcn\Application\Runtime\Cache\Home\5c9ee6d19cd41add49f97afe3aef0b25.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.155123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.155438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003758s ]
+
+[ 2014-12-19T11:13:54+08:00 ] 127.0.0.1 /sdcn/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002135s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.498210s ]
+SQL: SELECT * FROM `think_user` WHERE ( name = 'shengsr' ) LIMIT 1   [ RunTime:0.025646s ]
+SQL: SELECT * FROM `think_user` WHERE ( password = '3dcfd63e84d210efffb16514dbeae58d' ) LIMIT 1   [ RunTime:0.000466s ]
+
+[ 2014-12-19T11:13:55+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003064s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.049241s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000429s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.231888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.232209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001933s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002701s ]
+
+[ 2014-12-19T11:13:56+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index_form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002075s ]
+SQL: select * from sdcn_controller.content where url='' [ RunTime:0.084388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002954s ]
+
+[ 2014-12-19T11:16:26+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002246s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001637s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000433s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001776s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002753s ]
+
+[ 2014-12-19T11:16:27+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index_form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002683s ]
+SQL: select * from sdcn_controller.content where url='' [ RunTime:0.001208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002472s ]
+
+[ 2014-12-19T11:16:47+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003198s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001546s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000614s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002991s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003060s ]
+
+[ 2014-12-19T11:16:47+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index_form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003051s ]
+SQL: select * from sdcn_controller.content where url='' [ RunTime:0.001311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002837s ]
+
+[ 2014-12-19T11:16:59+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index_form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002951s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.002013s ]
+SQL: select t1.id,url,node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id join sdcn_controller.store_node t3 on node_id=t3.id where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4'  [ RunTime:0.058874s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005228s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005670s ]
+
+[ 2014-12-19T11:17:38+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index_form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003373s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001744s ]
+SQL: select t1.id,url,node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id join sdcn_controller.store_node t3 on node_id=t3.id where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4'  [ RunTime:0.001570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003115s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003340s ]
+
+[ 2014-12-19T11:17:52+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index_form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003484s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.002237s ]
+SQL: select t1.id,url,node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id join sdcn_controller.store_node t3 on node_id=t3.id where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4'  [ RunTime:0.002426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004180s ]
+
+[ 2014-12-19T11:18:19+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index_form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003506s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001718s ]
+SQL: select t1.id,url,node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id join sdcn_controller.store_node t3 on node_id=t3.id where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4'  [ RunTime:0.001692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003738s ]
+
+[ 2014-12-19T11:19:35+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index_form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002667s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001719s ]
+SQL: select t1.id,url,node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id join sdcn_controller.store_node t3 on node_id=t3.id where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4'  [ RunTime:0.001562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004210s ]
+
+[ 2014-12-19T11:23:56+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index_form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002732s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001695s ]
+SQL: select t1.id,url,node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id join sdcn_controller.store_node t3 on node_id=t3.id where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4'  [ RunTime:0.001451s ]
+NOTIC: [8] Undefined variable: arr D:\wamp\www\sdcn\Application\Home\Controller\IndexController.class.php 第 25 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\sdcn\Application\Home\Controller\IndexController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003784s ]
+
+[ 2014-12-19T11:24:57+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index_form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003163s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001635s ]
+SQL: select t1.id,url,node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id join sdcn_controller.store_node t3 on node_id=t3.id where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4'  [ RunTime:0.001419s ]
+NOTIC: [8] Undefined variable: arr D:\wamp\www\sdcn\Application\Home\Controller\IndexController.class.php 第 24 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\sdcn\Application\Home\Controller\IndexController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003243s ]
+
+[ 2014-12-19T11:25:37+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index_form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005110s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001778s ]
+SQL: select t1.id,url,node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id join sdcn_controller.store_node t3 on node_id=t3.id where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4'  [ RunTime:0.001498s ]
+NOTIC: [8] Undefined variable: arr D:\wamp\www\sdcn\Application\Home\Controller\IndexController.class.php 第 24 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\sdcn\Application\Home\Controller\IndexController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003904s ]
+
+[ 2014-12-19T14:01:20+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index_form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003069s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001739s ]
+SQL: select t1.id,url,node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id join sdcn_controller.store_node t3 on node_id=t3.id where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4'  [ RunTime:0.001686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004726s ]
+
+[ 2014-12-19T14:02:56+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index_form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004348s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001735s ]
+SQL: select t1.id,url,node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id join sdcn_controller.store_node t3 on node_id=t3.id where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4'  [ RunTime:0.001522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003111s ]
+
+[ 2014-12-19T14:03:20+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002520s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001617s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002948s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002918s ]
+
+[ 2014-12-19T14:03:21+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index_form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000127s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004803s ]
+SQL: select * from sdcn_controller.content where url='' [ RunTime:0.003488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004669s ]
+
+[ 2014-12-19T14:03:25+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003691s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001530s ]
+SQL: select t1.id,url,node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id join sdcn_controller.store_node t3 on node_id=t3.id where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4'  [ RunTime:0.001286s ]
+NOTIC: [8] Undefined variable: arr D:\wamp\www\sdcn\Application\Home\Controller\IndexController.class.php 第 17 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\sdcn\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001147s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000309s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000738s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002978s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003514s ]
+
+[ 2014-12-19T14:03:26+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index_form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002794s ]
+SQL: select * from sdcn_controller.content where url='' [ RunTime:0.001299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003118s ]
+
+[ 2014-12-19T14:05:30+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003963s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001722s ]
+SQL: select t1.id,url,node_id,t2.add_time,t2.last_time,t2.status from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4'  [ RunTime:0.001309s ]
+NOTIC: [8] Undefined variable: arr D:\wamp\www\sdcn\Application\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\sdcn\Application\Home\Controller\IndexController.class.php 第 16 行.
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001397s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000466s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002951s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004826s ]
+
+[ 2014-12-19T14:05:31+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index_form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006465s ]
+SQL: select * from sdcn_controller.content where url='' [ RunTime:0.002228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004150s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004518s ]
+
+[ 2014-12-19T14:06:19+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003047s ]
+SQL: select * from sdcn_controller.content where url='http://59.64.116.40/v.cctv.com/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264818000nero_aac32-9.mp4' [ RunTime:0.002927s ]
+SQL: select t1.id,url,node_id,t2.add_time,t2.last_time,t2.status from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id  where url='http://59.64.116.40/v.cctv.com/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264818000nero_aac32-9.mp4'  [ RunTime:0.001966s ]
+NOTIC: [8] Undefined variable: arr D:\wamp\www\sdcn\Application\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\sdcn\Application\Home\Controller\IndexController.class.php 第 16 行.
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001295s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000377s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002814s ]
+
+[ 2014-12-19T14:06:23+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004302s ]
+SQL: select * from sdcn_controller.content where url='' [ RunTime:0.003310s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001941s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002709s ]
+
+[ 2014-12-19T14:06:38+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003304s ]
+SQL: select * from sdcn_controller.content where url='http://59.64.116.40/v.cctv.com/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264818000nero_aac32-9.mp4' [ RunTime:0.001869s ]
+SQL: select t1.id,url,node_id,t2.add_time,t2.last_time,t2.status from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id  where url='http://59.64.116.40/v.cctv.com/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264818000nero_aac32-9.mp4'  [ RunTime:0.001404s ]
+NOTIC: [8] Undefined variable: arr D:\wamp\www\sdcn\Application\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\sdcn\Application\Home\Controller\IndexController.class.php 第 16 行.
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.002117s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000706s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002933s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002960s ]
+
+[ 2014-12-19T14:06:48+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004333s ]
+SQL: select * from sdcn_controller.content where url='http://59.64.116.40/v.cctv.com/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264818000nero_aac32-9.mp4' [ RunTime:0.001701s ]
+SQL: select t1.id,url,node_id,t2.add_time,t2.last_time,t2.status from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id  where url='http://59.64.116.40/v.cctv.com/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264818000nero_aac32-9.mp4'  [ RunTime:0.001374s ]
+NOTIC: [8] Undefined variable: arr D:\wamp\www\sdcn\Application\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\sdcn\Application\Home\Controller\IndexController.class.php 第 16 行.
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001306s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000564s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035053s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003311s ]
+
+[ 2014-12-19T14:06:55+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004540s ]
+SQL: select * from sdcn_controller.content where url='http://59.64.116.40/v.cctv.com/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264818000nero_aac32-9.mp4' [ RunTime:0.001512s ]
+SQL: select t1.id,url,node_id,t2.add_time,t2.last_time,t2.status from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id  where url='http://59.64.116.40/v.cctv.com/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264818000nero_aac32-9.mp4'  [ RunTime:0.001224s ]
+NOTIC: [8] Undefined variable: arr D:\wamp\www\sdcn\Application\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\sdcn\Application\Home\Controller\IndexController.class.php 第 16 行.
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001275s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000453s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040583s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003642s ]
+
+[ 2014-12-19T14:08:37+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004300s ]
+SQL: select * from sdcn_controller.content where url='http://59.64.116.40/v.cctv.com/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264818000nero_aac32-9.mp4' [ RunTime:0.002022s ]
+SQL: select t1.id,url,node_id,t2.add_time,t2.last_time,t2.status from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id  where url='http://59.64.116.40/v.cctv.com/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264818000nero_aac32-9.mp4'  [ RunTime:0.003343s ]
+NOTIC: [8] Undefined variable: arr D:\wamp\www\sdcn\Application\Home\Controller\IndexController.class.php 第 17 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\sdcn\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001556s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000590s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002982s ]
+
+[ 2014-12-19T14:08:51+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index_form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003441s ]
+SQL: select * from sdcn_controller.content where url='' [ RunTime:0.001459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002982s ]
+
+[ 2014-12-19T14:08:54+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index_form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003446s ]
+SQL: select * from sdcn_controller.content where url='' [ RunTime:0.001373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003274s ]
+
+[ 2014-12-19T14:09:02+08:00 ] 127.0.0.1 /sdcn/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002156s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007760s ]
+SQL: SELECT * FROM `think_user` WHERE ( name = 'shengsr' ) LIMIT 1   [ RunTime:0.002186s ]
+SQL: SELECT * FROM `think_user` WHERE ( password = '3dcfd63e84d210efffb16514dbeae58d' ) LIMIT 1   [ RunTime:0.000555s ]
+
+[ 2014-12-19T14:09:03+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002401s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001735s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000496s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002980s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002773s ]
+
+[ 2014-12-19T14:09:29+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003011s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.002114s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000423s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000808s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005058s ]
+
+[ 2014-12-19T14:09:33+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002105s ]
+SQL: select * from sdcn_controller.content where url='http://www.tudou.com/albumplay/r5GkYn3JkhM.html' [ RunTime:0.009353s ]
+SQL: select t1.id,url,node_id,t2.add_time,t2.last_time,t2.status from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id  where url='http://www.tudou.com/albumplay/r5GkYn3JkhM.html'  [ RunTime:0.002041s ]
+NOTIC: [8] Undefined variable: arr D:\wamp\www\sdcn\Application\Home\Controller\IndexController.class.php 第 17 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\sdcn\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001378s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000580s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001988s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002666s ]
+
+[ 2014-12-19T14:10:27+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002872s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001628s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000424s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039753s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002815s ]
+
+[ 2014-12-19T14:10:29+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002841s ]
+SQL: select * from sdcn_controller.content where url='http://www.tudou.com/albumplay/r5GkYn3JkhM.html' [ RunTime:0.002041s ]
+SQL: select t1.id,url,node_id,t2.add_time,t2.last_time,t2.status from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id  where url='http://www.tudou.com/albumplay/r5GkYn3JkhM.html'  [ RunTime:0.001193s ]
+NOTIC: [8] Undefined variable: arr D:\wamp\www\sdcn\Application\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\sdcn\Application\Home\Controller\IndexController.class.php 第 16 行.
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001135s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002859s ]
+
+[ 2014-12-19T14:13:45+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003866s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001665s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000569s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001655s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003052s ]
+
+[ 2014-12-19T14:13:47+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003154s ]
+SQL: select * from sdcn_controller.content where url='http://www.tudou.com/albumplay/r5GkYn3JkhM.html' [ RunTime:0.001480s ]
+SQL: select t1.id,url,node_id,t2.add_time,t2.last_time,t2.status from sdcn_controller.content t1  join sdcn_controller.content_location t2 on t1.id=t2.content_id  where url='http://www.tudou.com/albumplay/r5GkYn3JkhM.html'  [ RunTime:0.001128s ]
+NOTIC: [8] Undefined variable: arr D:\wamp\www\sdcn\Application\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\sdcn\Application\Home\Controller\IndexController.class.php 第 16 行.
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001226s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000448s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034671s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001830s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002177s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002545s ]
+
+[ 2014-12-19T14:14:34+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001653s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.003882s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000453s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001749s ]
+
+[ 2014-12-19T14:14:36+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001843s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001797s ]
+SQL: select * from sdcn_controller.content where url='http://www.tudou.com/albumplay/r5GkYn3JkhM.html' [ RunTime:0.001553s ]
+SQL: select t1.id,url,node_id,t2.add_time,t2.last_time,t2.status from sdcn_controller.content t1  join sdcn_controller.content_location t2 on t1.id=t2.content_id  where url='http://www.tudou.com/albumplay/r5GkYn3JkhM.html'  [ RunTime:0.001283s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001768s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000419s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001669s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002637s ]
+
+[ 2014-12-19T14:17:44+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002694s ]
+SQL: select * from sdcn_controller.content where url='http://www.tudou.com/albumplay/r5GkYn3JkhM.html' [ RunTime:0.001699s ]
+SQL: select url,node_id,t2.add_time,t2.last_time,t2.status from sdcn_controller.content t1 join sdcn_controller.content_location t2 on t1.id=t2.content_id  where url='http://www.tudou.com/albumplay/r5GkYn3JkhM.html' [ RunTime:0.001361s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001445s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000468s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003121s ]
+
+[ 2014-12-19T14:19:35+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002884s ]
+SQL: select * from sdcn_controller.content where url='http://www.tudou.com/albumplay/r5GkYn3JkhM.html' [ RunTime:0.001684s ]
+SQL: select node_id,t2.add_time,t2.last_time,t2.status from sdcn_controller.content t1 join sdcn_controller.content_location t2 on t1.id=t2.content_id  where url='http://www.tudou.com/albumplay/r5GkYn3JkhM.html' [ RunTime:0.001053s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001152s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001912s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002978s ]
+
+[ 2014-12-19T14:19:43+08:00 ] 127.0.0.1 /sdcn/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002405s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.008438s ]
+SQL: SELECT * FROM `think_user` WHERE ( name = 'shengsr' ) LIMIT 1   [ RunTime:0.003167s ]
+SQL: SELECT * FROM `think_user` WHERE ( password = '3dcfd63e84d210efffb16514dbeae58d' ) LIMIT 1   [ RunTime:0.000783s ]
+
+[ 2014-12-19T14:19:43+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002101s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001727s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000459s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035590s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003047s ]
+
+[ 2014-12-19T14:19:48+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002365s ]
+SQL: select * from sdcn_controller.content where url='http://59.64.116.40/v.cctv.com/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264818000nero_aac32-9.mp4' [ RunTime:0.001661s ]
+SQL: select node_id,t2.add_time,t2.last_time,t2.status from sdcn_controller.content t1 join sdcn_controller.content_location t2 on t1.id=t2.content_id  where url='http://59.64.116.40/v.cctv.com/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264818000nero_aac32-9.mp4' [ RunTime:0.001221s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001231s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000261s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000635s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003620s ]
+
+[ 2014-12-19T14:20:56+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002579s ]
+SQL: select * from sdcn_controller.content where url='http://59.64.116.40/v.cctv.com/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264818000nero_aac32-9.mp4' [ RunTime:0.001821s ]
+SQL: select node_id,t2.add_time,t2.last_time,t2.status from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id  where url='http://59.64.116.40/v.cctv.com/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264818000nero_aac32-9.mp4' [ RunTime:0.001333s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001339s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000527s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002612s ]
+
+[ 2014-12-19T14:21:24+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002645s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001708s ]
+SQL: select node_id,t2.add_time,t2.last_time,t2.status from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001191s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001130s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000766s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002724s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002762s ]
+
+[ 2014-12-19T14:21:42+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003205s ]
+SQL: select * from sdcn_controller.content where url='http://www.tudou.com/albumplay/r5GkYn3JkhM.html' [ RunTime:0.001897s ]
+SQL: select node_id,t2.add_time,t2.last_time,t2.status from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id  where url='http://www.tudou.com/albumplay/r5GkYn3JkhM.html' [ RunTime:0.001048s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001155s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000502s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002614s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002642s ]
+
+[ 2014-12-19T14:22:06+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002529s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.002317s ]
+SQL: select node_id,t2.add_time,t2.last_time,t2.status from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001411s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001447s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000304s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000733s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002838s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003962s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004313s ]
+
+[ 2014-12-19T14:28:35+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004192s ]
+SQL: select * from sdcn_controller.content where url='http://59.64.116.40/v.cctv.com/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264818000nero_aac32-9.mp4' [ RunTime:0.001813s ]
+SQL: select node_id,t2.add_time,t2.last_time,t2.status from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join store_node t3 on node_id=t3.id  where url='http://59.64.116.40/v.cctv.com/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264818000nero_aac32-9.mp4' [ RunTime:0.000671s ]
+ERR: 1046:No database selected
+ [ SQL语句 ] : select node_id,t2.add_time,t2.last_time,t2.status from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join store_node t3 on node_id=t3.id  where url='http://59.64.116.40/v.cctv.com/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264818000nero_aac32-9.mp4'
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001311s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000466s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003264s ]
+
+[ 2014-12-19T14:29:15+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003305s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001769s ]
+SQL: select node_id,t2.add_time,t2.last_time,t2.status from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.000856s ]
+ERR: 1046:No database selected
+ [ SQL语句 ] : select node_id,t2.add_time,t2.last_time,t2.status from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4'
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001239s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000440s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003230s ]
+
+[ 2014-12-19T14:29:24+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003092s ]
+SQL: select * from sdcn_controller.content where url='http://www.tudou.com/albumplay/r5GkYn3JkhM.html' [ RunTime:0.001641s ]
+SQL: select node_id,t2.add_time,t2.last_time,t2.status from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join store_node t3 on node_id=t3.id  where url='http://www.tudou.com/albumplay/r5GkYn3JkhM.html' [ RunTime:0.000815s ]
+ERR: 1046:No database selected
+ [ SQL语句 ] : select node_id,t2.add_time,t2.last_time,t2.status from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join store_node t3 on node_id=t3.id  where url='http://www.tudou.com/albumplay/r5GkYn3JkhM.html'
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001368s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000530s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001985s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002534s ]
+
+[ 2014-12-19T14:29:34+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004296s ]
+SQL: select * from sdcn_controller.content where url='http://59.64.116.40/v.cctv.com/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264818000nero_aac32-9.mp4' [ RunTime:0.001746s ]
+SQL: select node_id,t2.add_time,t2.last_time,t2.status from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join store_node t3 on node_id=t3.id  where url='http://59.64.116.40/v.cctv.com/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264818000nero_aac32-9.mp4' [ RunTime:0.000716s ]
+ERR: 1046:No database selected
+ [ SQL语句 ] : select node_id,t2.add_time,t2.last_time,t2.status from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join store_node t3 on node_id=t3.id  where url='http://59.64.116.40/v.cctv.com/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264818000nero_aac32-9.mp4'
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001224s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000662s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002273s ]
+
+[ 2014-12-19T14:30:22+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003274s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001723s ]
+SQL: select node_id,t2.add_time,t2.last_time,t2.status from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.000632s ]
+ERR: 1046:No database selected
+ [ SQL语句 ] : select node_id,t2.add_time,t2.last_time,t2.status from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4'
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001122s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002205s ]
+
+[ 2014-12-19T14:30:40+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002862s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001673s ]
+SQL: select node_id,t2.add_time,t2.last_time,t2.status from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001252s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001197s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033314s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002835s ]
+
+[ 2014-12-19T14:32:53+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003830s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.002678s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003217s ]
+
+[ 2014-12-19T14:33:26+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index_form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003451s ]
+NOTIC: [8] Undefined variable: Model D:\wamp\www\sdcn\Application\Home\Controller\IndexController.class.php 第 23 行.
+
+[ 2014-12-19T14:34:06+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index_form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002907s ]
+NOTIC: [8] Undefined variable: Model D:\wamp\www\sdcn\Application\Home\Controller\IndexController.class.php 第 23 行.
+
+[ 2014-12-19T14:35:10+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index_form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002544s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001590s ]
+NOTIC: [8] Undefined variable: Model D:\wamp\www\sdcn\Application\Home\Controller\IndexController.class.php 第 27 行.
+
+[ 2014-12-19T14:35:16+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002847s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001350s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000241s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000618s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002936s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005314s ]
+
+[ 2014-12-19T14:35:17+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index_form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004726s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.003831s ]
+NOTIC: [8] Undefined variable: Model D:\wamp\www\sdcn\Application\Home\Controller\IndexController.class.php 第 27 行.
+
+[ 2014-12-19T14:35:47+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index_form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002134s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.002744s ]
+SQL: select node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001831s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002758s ]
+
+[ 2014-12-19T14:36:15+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003413s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001509s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000463s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001962s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002658s ]
+
+[ 2014-12-19T14:36:17+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index_form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001990s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004344s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001557s ]
+SQL: select node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002190s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002406s ]
+
+[ 2014-12-19T14:37:41+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003162s ]
+
+[ 2014-12-19T14:38:06+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002048s ]
+
+[ 2014-12-19T14:38:09+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004490s ]
+
+[ 2014-12-19T14:38:28+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004342s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001964s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000455s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001828s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003654s ]
+
+[ 2014-12-19T14:38:33+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index_form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002641s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001629s ]
+SQL: select node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002846s ]
+
+[ 2014-12-19T14:48:44+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002337s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001445s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000517s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035783s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001828s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002271s ]
+
+[ 2014-12-19T14:48:45+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index_form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003429s ]
+SQL: select * from sdcn_controller.content where url='' [ RunTime:0.001367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002716s ]
+
+[ 2014-12-19T14:48:53+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index_form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002898s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001641s ]
+SQL: select node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001945s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004326s ]
+
+[ 2014-12-19T14:49:18+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index_form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002880s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001594s ]
+SQL: select node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002892s ]
+
+[ 2014-12-19T14:49:31+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index_form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002828s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001880s ]
+SQL: select node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004048s ]
+
+[ 2014-12-19T14:50:19+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002850s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.002452s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005309s ]
+
+[ 2014-12-19T14:50:19+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index_form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002944s ]
+SQL: select * from sdcn_controller.content where url='' [ RunTime:0.001335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004111s ]
+
+[ 2014-12-19T14:50:22+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index_form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002996s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001735s ]
+SQL: select node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002989s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003295s ]
+
+[ 2014-12-19T14:52:07+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index_form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003741s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001858s ]
+SQL: select node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004277s ]
+
+[ 2014-12-19T14:52:15+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index_form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002762s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.002435s ]
+SQL: select node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002888s ]
+
+[ 2014-12-19T14:52:20+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003206s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001601s ]
+NOTIC: [8] Undefined variable: controller D:\wamp\www\sdcn\Application\Home\Controller\IndexController.class.php 第 14 行.
+
+[ 2014-12-19T14:52:47+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003459s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001439s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000463s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001919s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003267s ]
+
+[ 2014-12-19T14:52:47+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003747s ]
+SQL: select * from sdcn_controller.content where url='' [ RunTime:0.001243s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001369s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000359s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002624s ]
+
+[ 2014-12-19T14:52:50+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002936s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.002211s ]
+SQL: select node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001385s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001724s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000453s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002877s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003895s ]
+
+[ 2014-12-19T14:52:50+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003644s ]
+SQL: select * from sdcn_controller.content where url='' [ RunTime:0.001613s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001351s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000345s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001869s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003021s ]
+
+[ 2014-12-19T14:56:03+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002764s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001712s ]
+SQL: select node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001406s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001227s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003319s ]
+
+[ 2014-12-19T15:13:15+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002454s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001674s ]
+SQL: select node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001304s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001150s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000491s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001777s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001990s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002698s ]
+
+[ 2014-12-19T15:13:17+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002147s ]
+SQL: select * from sdcn_controller.content where url='' [ RunTime:0.001512s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001511s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+NOTIC: [8] Undefined variable: content_info D:\wamp\www\sdcn\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\sdcn\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031651s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001964s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002781s ]
+
+[ 2014-12-19T15:13:26+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002839s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001554s ]
+SQL: select node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001254s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001231s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000417s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001988s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002315s ]
+
+[ 2014-12-19T15:13:31+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002709s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001376s ]
+SQL: select node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001164s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.002182s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001832s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002309s ]
+
+[ 2014-12-19T15:14:09+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002248s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001660s ]
+SQL: select node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001269s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001274s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000443s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001809s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002340s ]
+
+[ 2014-12-19T15:14:59+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002692s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001738s ]
+SQL: select node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001305s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.002141s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002406s ]
+
+[ 2014-12-19T15:15:01+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000393s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025612s ]
+SQL: select * from sdcn_controller.content where url='' [ RunTime:0.001403s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001236s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000608s ]
+NOTIC: [8] Undefined variable: content_info D:\wamp\www\sdcn\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 50 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\sdcn\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 50 行.
+NOTIC: [8] Undefined variable: content_info D:\wamp\www\sdcn\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\sdcn\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031100s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001878s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002550s ]
+
+[ 2014-12-19T15:15:07+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002837s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001470s ]
+SQL: select node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001874s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001086s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002385s ]
+
+[ 2014-12-19T15:15:12+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002210s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.003819s ]
+SQL: select node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.002811s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001389s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000628s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001865s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003407s ]
+
+[ 2014-12-19T15:15:45+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002360s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.002011s ]
+SQL: select node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001419s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001658s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000403s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001694s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002315s ]
+
+[ 2014-12-19T15:16:46+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002780s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001668s ]
+SQL: select node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001501s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001214s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002624s ]
+
+[ 2014-12-19T15:17:06+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002430s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001671s ]
+SQL: select node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001521s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001192s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000350s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000671s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002874s ]
+
+[ 2014-12-19T15:22:50+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002564s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001577s ]
+SQL: select url,node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001356s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001282s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000395s ]
+NOTIC: [8] Undefined index: t2 D:\wamp\www\sdcn\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+NOTIC: [8] Undefined index: t2 D:\wamp\www\sdcn\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002562s ]
+
+[ 2014-12-19T15:23:37+08:00 ] 127.0.0.1 /sdcn/index.php/home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003507s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000472s ]
+NOTIC: [8] Undefined variable: errmsg D:\wamp\www\sdcn\Application\Runtime\Cache\Home\5c9ee6d19cd41add49f97afe3aef0b25.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003894s ]
+
+[ 2014-12-19T15:23:52+08:00 ] 127.0.0.1 /sdcn/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004118s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.008751s ]
+SQL: SELECT * FROM `think_user` WHERE ( name = 'shengsr' ) LIMIT 1   [ RunTime:0.002845s ]
+SQL: SELECT * FROM `think_user` WHERE ( password = '3dcfd63e84d210efffb16514dbeae58d' ) LIMIT 1   [ RunTime:0.000532s ]
+
+[ 2014-12-19T15:23:53+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003465s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001662s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000294s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000677s ]
+NOTIC: [8] Undefined variable: content_info D:\wamp\www\sdcn\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002524s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003289s ]
+
+[ 2014-12-19T15:24:06+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004352s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.002590s ]
+SQL: select url,node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.002227s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001357s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000402s ]
+NOTIC: [8] Undefined index: t2 D:\wamp\www\sdcn\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+NOTIC: [8] Undefined index: t2 D:\wamp\www\sdcn\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001887s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002862s ]
+
+[ 2014-12-19T15:25:30+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004489s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001698s ]
+SQL: select url,node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001345s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001224s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000283s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000539s ]
+NOTIC: [8] Undefined index: t2 D:\wamp\www\sdcn\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+NOTIC: [8] Undefined index: t2 D:\wamp\www\sdcn\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002825s ]
+
+[ 2014-12-19T15:27:34+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002291s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001732s ]
+SQL: select url,node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001379s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001293s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000502s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002454s ]
+
+[ 2014-12-19T15:28:51+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002134s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001730s ]
+SQL: select url,node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001918s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001436s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000405s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037703s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001860s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002399s ]
+
+[ 2014-12-19T15:29:16+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002882s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001593s ]
+SQL: select url,node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.000988s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.000902s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000477s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035336s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001985s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002373s ]
+
+[ 2014-12-19T15:29:19+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002016s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002322s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001573s ]
+SQL: select url,node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001200s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001148s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000388s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001902s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002301s ]
+
+[ 2014-12-19T15:30:34+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003286s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.002268s ]
+SQL: select url,node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001472s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001201s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000652s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002119s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002341s ]
+
+[ 2014-12-19T15:30:42+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002679s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001781s ]
+SQL: select url,node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001566s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001326s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000395s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002776s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003364s ]
+
+[ 2014-12-19T15:31:06+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004282s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001893s ]
+SQL: select url,node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001562s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001308s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000515s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001892s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003211s ]
+
+[ 2014-12-19T15:33:10+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003502s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000534s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001989s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003019s ]
+
+[ 2014-12-19T15:45:27+08:00 ] 127.0.0.1 /sdcn/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002878s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.009369s ]
+SQL: SELECT * FROM `think_user` WHERE ( name = 'shengsr' ) LIMIT 1   [ RunTime:0.002343s ]
+SQL: SELECT * FROM `think_user` WHERE ( password = '3dcfd63e84d210efffb16514dbeae58d' ) LIMIT 1   [ RunTime:0.000383s ]
+
+[ 2014-12-19T15:45:28+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004079s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001751s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000392s ]
+NOTIC: [8] Undefined variable: content_info D:\wamp\www\sdcn\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002862s ]
+
+[ 2014-12-19T15:47:15+08:00 ] 127.0.0.1 /sdcn/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001881s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002476s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007652s ]
+SQL: SELECT * FROM `think_user` WHERE ( name = 'shengsr' ) LIMIT 1   [ RunTime:0.003113s ]
+SQL: SELECT * FROM `think_user` WHERE ( password = '3dcfd63e84d210efffb16514dbeae58d' ) LIMIT 1   [ RunTime:0.000543s ]
+
+[ 2014-12-19T15:47:15+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003066s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001518s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+NOTIC: [8] Undefined variable: content_info D:\wamp\www\sdcn\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003930s ]
+
+[ 2014-12-19T15:47:19+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003012s ]
+SQL: select * from sdcn_controller.content where url='' [ RunTime:0.001529s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001316s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000605s ]
+NOTIC: [8] Undefined variable: content_info D:\wamp\www\sdcn\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003970s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003989s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004409s ]
+
+[ 2014-12-19T15:47:30+08:00 ] 127.0.0.1 /sdcn/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002516s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.006680s ]
+SQL: SELECT * FROM `think_user` WHERE ( name = 'shengsr' ) LIMIT 1   [ RunTime:0.001748s ]
+SQL: SELECT * FROM `think_user` WHERE ( password = '3dcfd63e84d210efffb16514dbeae58d' ) LIMIT 1   [ RunTime:0.000688s ]
+
+[ 2014-12-19T15:47:31+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003337s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001606s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000536s ]
+NOTIC: [8] Undefined variable: content_info D:\wamp\www\sdcn\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003304s ]
+
+[ 2014-12-19T15:47:35+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002840s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001649s ]
+SQL: select url,node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001329s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001248s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000623s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002864s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003247s ]
+
+[ 2014-12-19T15:48:51+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005043s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001522s ]
+SQL: select url,node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001202s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001416s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000445s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003638s ]
+
+[ 2014-12-19T15:49:16+08:00 ] 127.0.0.1 /sdcn/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003612s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007756s ]
+SQL: SELECT * FROM `think_user` WHERE ( name = 'shengsr' ) LIMIT 1   [ RunTime:0.003620s ]
+SQL: SELECT * FROM `think_user` WHERE ( password = '3dcfd63e84d210efffb16514dbeae58d' ) LIMIT 1   [ RunTime:0.000421s ]
+
+[ 2014-12-19T15:49:16+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002765s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001745s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000504s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000859s ]
+NOTIC: [8] Undefined variable: content_info D:\wamp\www\sdcn\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002751s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004321s ]
+
+[ 2014-12-19T15:49:23+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005368s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001787s ]
+SQL: select url,node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001512s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001282s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002627s ]
+
+[ 2014-12-19T15:51:54+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005137s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001576s ]
+SQL: select url,node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001343s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001157s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000631s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002975s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002939s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003215s ]
+
+[ 2014-12-19T15:52:16+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004140s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001827s ]
+SQL: select url,node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001523s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001259s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000380s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004051s ]
+
+[ 2014-12-19T15:52:20+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003472s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001719s ]
+SQL: select url,node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.002608s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001471s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000654s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003672s ]
+
+[ 2014-12-19T15:52:39+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003575s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001701s ]
+SQL: select url,node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001387s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001785s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000851s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047594s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004156s ]
+
+[ 2014-12-19T15:54:09+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002669s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001700s ]
+SQL: select url,node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001445s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001405s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000522s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002884s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003151s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003554s ]
+
+[ 2014-12-19T15:54:26+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003281s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001901s ]
+SQL: select url,node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001630s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001222s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002154s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002430s ]
+
+[ 2014-12-19T15:55:22+08:00 ] 127.0.0.1 /sdcn/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003160s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007910s ]
+SQL: SELECT * FROM `think_user` WHERE ( name = 'shengsr' ) LIMIT 1   [ RunTime:0.001491s ]
+SQL: SELECT * FROM `think_user` WHERE ( password = '3dcfd63e84d210efffb16514dbeae58d' ) LIMIT 1   [ RunTime:0.000466s ]
+
+[ 2014-12-19T15:55:22+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002359s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001592s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000376s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000897s ]
+NOTIC: [8] Undefined variable: content_info D:\wamp\www\sdcn\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001799s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002406s ]
+
+[ 2014-12-19T15:55:30+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002440s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.003070s ]
+SQL: select url,node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001681s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001293s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000429s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002060s ]
+
+[ 2014-12-19T15:55:42+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002420s ]
+SQL: select * from sdcn_controller.content where url='http://www.tudou.com/albumplay/r5GkYn3JkhM.html' [ RunTime:0.001365s ]
+SQL: select url,node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://www.tudou.com/albumplay/r5GkYn3JkhM.html' [ RunTime:0.001080s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001048s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000482s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001778s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002074s ]
+
+[ 2014-12-19T15:55:55+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002935s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000411s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001904s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004106s ]
+
+[ 2014-12-19T15:55:57+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002358s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001732s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000412s ]
+NOTIC: [8] Undefined variable: content_info D:\wamp\www\sdcn\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001965s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002788s ]
+
+[ 2014-12-19T15:55:59+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002859s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000460s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002322s ]
+
+[ 2014-12-19T15:56:12+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/contentdistribution.html?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003203s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000623s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003041s ]
+
+[ 2014-12-19T15:56:16+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/cacherequest.html?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002478s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000623s ]
+NOTIC: [8] Undefined variable: ip D:\wamp\www\sdcn\Application\Runtime\Cache\Home\143dab7407260f0734c1e06c630cbc16.php 第 56 行.
+NOTIC: [8] Undefined variable: ip D:\wamp\www\sdcn\Application\Runtime\Cache\Home\143dab7407260f0734c1e06c630cbc16.php 第 59 行.
+NOTIC: [8] Undefined variable: ip D:\wamp\www\sdcn\Application\Runtime\Cache\Home\143dab7407260f0734c1e06c630cbc16.php 第 62 行.
+NOTIC: [8] Undefined variable: ip D:\wamp\www\sdcn\Application\Runtime\Cache\Home\143dab7407260f0734c1e06c630cbc16.php 第 65 行.
+NOTIC: [8] Undefined variable: ip D:\wamp\www\sdcn\Application\Runtime\Cache\Home\143dab7407260f0734c1e06c630cbc16.php 第 68 行.
+NOTIC: [8] Undefined variable: ip D:\wamp\www\sdcn\Application\Runtime\Cache\Home\143dab7407260f0734c1e06c630cbc16.php 第 75 行.
+NOTIC: [8] Undefined variable: ip D:\wamp\www\sdcn\Application\Runtime\Cache\Home\143dab7407260f0734c1e06c630cbc16.php 第 78 行.
+NOTIC: [8] Undefined variable: ip D:\wamp\www\sdcn\Application\Runtime\Cache\Home\143dab7407260f0734c1e06c630cbc16.php 第 81 行.
+NOTIC: [8] Undefined variable: ip D:\wamp\www\sdcn\Application\Runtime\Cache\Home\143dab7407260f0734c1e06c630cbc16.php 第 84 行.
+NOTIC: [8] Undefined variable: ip D:\wamp\www\sdcn\Application\Runtime\Cache\Home\143dab7407260f0734c1e06c630cbc16.php 第 87 行.
+NOTIC: [8] Undefined variable: ip D:\wamp\www\sdcn\Application\Runtime\Cache\Home\143dab7407260f0734c1e06c630cbc16.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002802s ]
+
+[ 2014-12-19T15:56:21+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Node/flowdistribution.html?ip=192.168.64.223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002392s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000404s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001872s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003363s ]
+
+[ 2014-12-19T16:09:40+08:00 ] 127.0.0.1 /sdcn/index.php/home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002562s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+NOTIC: [8] Undefined variable: errmsg D:\wamp\www\sdcn\Application\Runtime\Cache\Home\5c9ee6d19cd41add49f97afe3aef0b25.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002474s ]
+
+[ 2014-12-19T16:09:47+08:00 ] 127.0.0.1 /sdcn/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003798s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.009358s ]
+SQL: SELECT * FROM `think_user` WHERE ( name = 'shengsr' ) LIMIT 1   [ RunTime:0.003500s ]
+SQL: SELECT * FROM `think_user` WHERE ( password = '3dcfd63e84d210efffb16514dbeae58d' ) LIMIT 1   [ RunTime:0.000447s ]
+
+[ 2014-12-19T16:09:47+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002121s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001597s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000512s ]
+NOTIC: [8] Undefined variable: content_info D:\wamp\www\sdcn\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001736s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002244s ]
+
+[ 2014-12-19T16:09:56+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003791s ]
+SQL: select * from sdcn_controller.content where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.002848s ]
+SQL: select url,node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://preview.v.cntv.cn/mkv/flash/mp4video32/TMS/2014/02/01/a21b6ead579f461ba887dd82e5557bd0_h264200000nero_aac16-3.mp4?type=mp4' [ RunTime:0.001948s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001466s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000611s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002164s ]
+
+[ 2014-12-19T16:10:06+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002207s ]
+SQL: select * from sdcn_controller.content where url='http://www.tudou.com/albumplay/r5GkYn3JkhM.html' [ RunTime:0.001518s ]
+SQL: select url,node_id,t2.add_time,t2.last_time,t2.status,ip from sdcn_controller.content t1 left join sdcn_controller.content_location t2 on t1.id=t2.content_id left join sdcn_controller.store_node t3 on node_id=t3.id  where url='http://www.tudou.com/albumplay/r5GkYn3JkhM.html' [ RunTime:0.001271s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001149s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001658s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002309s ]
+
+[ 2014-12-19T16:10:14+08:00 ] 127.0.0.1 /sdcn/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003296s ]
+SQL: select * from sdcn_controller.content where url='http://localhost/sdcn/index.php/Home/Index/index' [ RunTime:0.001446s ]
+SQL: select ip,port,node_type,total_cache_num,cache_used_rate,total_cache_size,status from sdcn_controller.store_node  t1 left join 	syslog.cnode  t2  on t1.ip = t2.cnode_ip [ RunTime:0.001426s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+NOTIC: [8] Undefined variable: content_info D:\wamp\www\sdcn\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036785s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002153s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002380s ]
+

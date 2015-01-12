@@ -1,0 +1,32 @@
+<div class="span9" id="cacherequest" /></div>
+<script type="text/javascript">
+$(function () {
+    $('#cacherequest').highcharts({
+        chart: {
+            type: 'line'
+        },
+        title: {
+            text: 'cache requests'
+        },
+        xAxis: {
+            categories:<?php echo $x_label ?>
+        },
+        yAxis: {
+            title: {
+                text: 'times'
+            }
+        },
+        plotOptions: {
+            line: {
+                dataLabels: {
+                    enabled: true
+                },
+                enableMouseTracking: false
+            }
+        },
+       series: [{
+                data:<?php echo $data;?> 
+            }]
+    });
+});
+</script>

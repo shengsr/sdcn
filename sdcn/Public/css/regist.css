@@ -1,0 +1,26 @@
+body{
+	background-color:#e3e3e3;
+}
+.regist_form{
+	text-align: center;
+	margin-top:100px;
+}
+.Row{
+	padding:10px;
+}
+#password{
+	width:25%;
+	height:40px;
+}
+#email{
+	width:25%;
+	height:40px;
+}
+#username{
+	width:25%;
+	height:40px;
+}
+#verify{
+	width:25%;
+	height:40px;
+}

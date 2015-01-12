@@ -1,0 +1,65 @@
+<?php
+namespace Home\Controller;
+use Think\Controller;
+class NodeController extends Controller {
+	public function contentdistribution(){
+		$content = D('Content');
+		$ip = $_GET['ip'];
+	//	dump($ip);
+		$list0= $content->where("cnode_ip = '$ip' AND content_type = '0'")->field('content_size')->select();
+		$list1= $content->where("cnode_ip = '$ip' AND content_type = '1'")->field('content_size')->select();
+		$list2= $content->where("cnode_ip = '$ip' AND content_type = '2'")->field('content_size')->select();
+		dump($list0);
+		dump($list1);
+		dump($list0);
+		$this->assign('contentlist_vedio',$list0);
+		$this->assign('contentlist_app',$list1);
+		$this->assign('contentlist_picture',$list2);
+		$this->display();
+	}	
+	public function statusmaintenance(){
+		$this->display();
+	}	
+	public function accountinformation(){
+		$this->display();
+	}	
+	public function cachecontent(){
+		$this->display();
+	}	
+	public function overallflow(){
+		$this->display();
+	}	
+	public function httpflow(){
+		$this->display();
+	}	
+	public function passwordmodify(){		
+		$this->display();
+	}	
+	public function pictureflow(){
+		$this->display();
+	}	
+	public function usergroupmanagement(){
+		$this->display();
+	}		
+	public function appflow(){
+		$this->display();
+	}	
+	public function flowdistribution(){
+		$this->display();
+	}
+	public function cacherequest(){
+		$this->display();
+	}	
+	public function cachehit(){
+		$this->display();
+	}	
+	public function splitoutflow(){
+		$this->display();
+	}		
+	public function contentfrequence(){
+		$this->display();
+	}	
+	public function serviceexpress(){
+		$this->display();
+	}			
+}

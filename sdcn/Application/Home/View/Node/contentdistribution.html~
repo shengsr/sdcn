@@ -1,0 +1,135 @@
+<div class="row">
+				<div class="span3">
+					<div class="well" style="padding: 8px 0;">
+						<ul class="nav nav-list">
+							<li class="nav-header">
+								<a href="../Index/index.html">系统首页</a>							
+							</li>
+							<li class="nav-header">
+								节点缓存信息
+							</li>
+							<li>
+								<a href="contentdistribution.html?ip={$ip}"><i class="icon-stop"></i> 缓存内容分布</a>
+							</li>
+							<li>
+								<a href="cacherequest.html?ip={$ip}"><i class="icon-stop"></i> 缓存请求数</a>
+							</li>
+							<li>
+								<a href="cachehit.html?ip={$ip}"><i class="icon-stop"></i> 缓存命中率</a>
+							</li>
+							<li>
+								<a href="splitoutflow.html?ip={$ip}"><i class="icon-stop"></i> 缓存吐出流量</a>
+							</li>
+							<li>
+								<a href="splitinflow.html?ip={$ip}"><i class="icon-stop"></i> 缓存流入流量</a>
+								
+							</li>						
+							<li class="nav-header">
+								节点流量信息
+							</li>
+							<li>
+								<a href="overallflow.html?ip={$ip}"><i class="icon-stop"></i> 总体流量</a>
+							</li>
+							<li>
+								<a href="httpflow.html?ip={$ip}"><i class="icon-picture"></i> http流量</a>
+							</li>
+							<li>
+								<a href="pictureflow.html?ip={$ip}"><i class="icon-stop"></i> 图片类流量</a>
+							</li>
+							<li>
+								<a href="appflow.html?ip={$ip}"><i class="icon-picture"></i>App类流量</a>
+							</li>
+							<li>
+								<a href="flowdistribution.html?ip={$ip}"><i class="icon-stop"></i>流量分布</a>
+							</li>
+							<li class="nav-header">
+								节点内容信息
+							</li>
+							<li>
+								<a href="contentfrequence.html?ip={$ip}"><i class="icon-picture"></i> 内容状态</a>
+							</li>
+							<li>
+								<a href="contentstatus.html?ip={$ip}"><i class="icon-picture"></i> 内容热度</a>
+							</li>
+							
+						</ul>
+					</div>
+				</div>
+<div class="span9" id="contentdistribution" width="400" height="400"/></div>
+<script type="text/javascript">
+
+				/*	$(function(){
+								var result='';
+								$.ajax({
+									type:"post",
+									async:false,
+									data:{ip:"192.168.64.223"},
+									url:"__URL__/content",			
+									success:function(data){
+									//	alert(data.vedio);
+										  vediosize = data.vedio;
+										  picturesize = data.picture;
+										  varappsize = data.app;	
+										  result=data;
+								}										
+							});	
+								return result;
+						}); */
+
+$(function () {
+    $(document).ready(function () {
+        // Build the chart
+        $('#contentdistribution').highcharts({
+            chart: {
+                plotBackgroundColor: null,
+				defaultSeriesType: 'pie',
+                plotBorderWidth: null,
+                plotShadow: false
+            },
+            title: {
+                text: '节点缓存内容分布'
+            },
+            tooltip: {
+                formatter: function() { //鼠标滑向图像提示框的格式化提示信息 
+					return '<b>' + this.point.name + '</b>: ' +  this.y ; //this.y显示实际数据 twoDecimal(this.percentage) + ' %' 显示百分比
+				} 
+            },
+            plotOptions: {
+                pie: {
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: false
+                    },
+                    showInLegend: true
+                }
+            },
+            series: [{
+                name: 'Browser share',
+                data:<?php echo $data;?> 
+            }]
+        });
+    });
+
+});
+function twoDecimal(x) {
+	var f_x = parseFloat(x);
+	if (isNaN(f_x)) {
+		alert('错误的参数');
+		return false;
+	}
+	var f_x = Math.round(x * 100) / 100;
+	var s_x = f_x.toString();
+	var pos_decimal = s_x.indexOf('.');
+	if (pos_decimal < 0) {
+		pos_decimal = s_x.length;
+		s_x += '.';
+	}
+	while (s_x.length <= pos_decimal + 2) {
+		s_x += '0';
+	}
+	return s_x;
+}
+</script>
+	
+	
